@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Modal</title>
+</head>
+<body>
+
+
+    <main>
+        <div data-modal>
+            Abir modal
+        </div>
+    </main>
+
+
+    <!-- Component modal -->
+
+    <section id="modal" class="modal disabled">
+        <div class="container-modal">
+
+            <!-- Header modal -->
+            <div class="modal-header">
+                <h1>CONJUNTO DE CALÇA E BLUSA</h1>
+                <svg data-modal xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(0, 0, 0, 1);"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+            </div>
+
+            <!-- Body modal -->
+            <div class="modal-body">
+
+                <section class="section-1">
+                    <div class="container-img">
+                        <div>
+                            <i class='bx bxs-chevron-left'></i>
+                            <i class='bx bx-chevron-right'></i>
+                        </div>
+                    </div>
+
+                    <div class="container-itens">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="section-2">
+                    <h3>Feito de algodão puro</h3>
+                    <p>Feito de algodão puro macio e sustentavel, confortavel e macio.</p>
+                    
+                    <div class="container-tags">
+                        <div class="tags"> Leve solto</div>
+                        <div class="tags"> Leve solto</div>
+                        <div class="tags"> Leve solto</div>
+                        <div class="tags"> Leve solto</div>
+                        <div class="tags"> Leve solto</div>
+                    </div>
+                  
+                    <div class="ctn-buttons">
+                        <button class="btn-modal-1">Quero saber mais</button>
+                        <button data-modal class="btn-modal-2">Fechar e voltar</button>
+                    </div>
+                </section>  
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
